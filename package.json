@@ -7,16 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon --exec babel-node --presets babel-preset-env -- src/server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/joeynimu/graphql-user-api.git"
-  },
-  "author": "Joe Ng'ethe",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/joeynimu/graphql-user-api/issues"
-  },
-  "homepage": "https://github.com/joeynimu/graphql-user-api#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
@@ -26,6 +16,7 @@
     "babel-preset-env": "^1.7.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0"
+    "babel-cli": "^6.26.0",
+    "nodemon": "~1.3.8"
   }
 }
